@@ -1,0 +1,11 @@
+<suite name="Suite-4" verbose="1">
+    <listeners>
+        <listener class-name="listener.TestListener"/>
+    </listeners>
+    <test name ="Name">
+        <classes>
+            <class name = "CreateTest"/>
+            <class name = "NewProjectTest"/>
+        </classes>
+    </test>
+</suite>
